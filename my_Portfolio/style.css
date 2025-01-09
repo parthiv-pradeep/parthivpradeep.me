@@ -322,11 +322,11 @@ header.shadow {
     animation-delay: 0.5s;
 }
 .skill-per.css{
-    width: 80%;
+    width: 90%;
     animation-delay: 0.5s;
 }
 .skill-per.javascript{
-    width: 50%;
+    width: 80%;
     animation-delay: 0.5s;
 }
 .skill-per.wordpress{
@@ -341,8 +341,24 @@ header.shadow {
     width: 90%;
     animation-delay: 0.5s;
 }
+.skill-per.Node{
+    width: 70%;
+    animation-delay: 0.5s;
+}
 .skill-per.react{
-    width: 50%;
+    width: 80%;
+    animation-delay: 0.5s;
+}
+.skill-per.Express{
+    width: 80%;
+    animation-delay: 0.5s;
+}
+.skill-per.MongoDB{
+    width: 90%;
+    animation-delay: 0.5s;
+}
+.skill-per.PHP{
+    width: 70%;
     animation-delay: 0.5s;
 }
 @keyframes progress {
@@ -416,7 +432,7 @@ font-weight: 500;
 
 .portfolio-content{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(20px,auto));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
     margin-top: 2rem;
 

@@ -1,51 +1,22 @@
- ```xml
- <?xml version="1.0" encoding="UTF-8"?>
- <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-     <url>
-         <loc>https://parthivpradeep.me/</loc>
-         <lastmod>2024-08-17</lastmod>
-         <changefreq>weekly</changefreq>
-         <priority>1.0</priority>
-     </url>
-       <url>
-         <loc>https://parthivpradeep.me/#about</loc>
-         <lastmod>2024-08-17</lastmod>
-         <changefreq>weekly</changefreq>
-         <priority>0.9</priority>
-     </url>
-       <url>
-         <loc>https://parthivpradeep.me/#skills</loc>
-         <lastmod>2024-08-17</lastmod>
-         <changefreq>weekly</changefreq>
-         <priority>0.9</priority>
-     </url>
-       <url>
-         <loc>https://parthivpradeep.me/#services</loc>
-         <lastmod>2024-08-17</lastmod>
-         <changefreq>weekly</changefreq>
-         <priority>0.9</priority>
-     </url>
-       <url>
-         <loc>https://parthivpradeep.me/#portfolio</loc>
-         <lastmod>2024-08-17</lastmod>
-         <changefreq>weekly</changefreq>
-         <priority>0.9</priority>
-     </url>
-        <url>
-         <loc>https://parthivpradeep.me/#contact</loc>
-         <lastmod>2024-08-17</lastmod>
-         <changefreq>weekly</changefreq>
-         <priority>0.9</priority>
-     </url>
-    
- </urlset>
- ```
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
- *   **Explanation of Elements:**
-     *   `<?xml version="1.0" encoding="UTF-8"?>`:  Specifies the XML version and encoding.
-     *   `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">`: Defines the sitemap schema.
-     *   `<url>`:  A container for each URL in your sitemap.
-     *   `<loc>`: The full URL of a page on your site.
-     *   `<lastmod>`:  The date when the page was last modified (optional, but recommended). Use the format `YYYY-MM-DD`.
-     *   `<changefreq>`:  How frequently the content on the URL is likely to change (options like `always`, `hourly`, `daily`, `weekly`, `monthly`, `yearly`, `never`).
-     *   `<priority>`:  The relative priority of this URL compared to other URLs on your site (a value between `0.0` and `1.0`).  Homepage is usually `1.0`.
+
+<url>
+  <loc>https://parthivpradeep.me/</loc>
+  <lastmod>2025-01-09T16:05:55+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://parthivpradeep.me/images/parthiv-pradeep.pdf</loc>
+  <lastmod>2025-01-09T16:05:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>

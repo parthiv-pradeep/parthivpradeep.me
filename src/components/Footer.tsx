@@ -6,7 +6,7 @@ import { InteractiveHoverButton } from "./magicui/interactive-hover-button";
 import { useModalStore } from "@/stores/modalStore";
 
 const Footer = () => {
-  const { openModal } = useModalStore();
+  useModalStore();
 
   return (
     <footer className="border-t">

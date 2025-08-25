@@ -7,7 +7,7 @@ import { useTheme } from "next-themes";
 import { useKeyboardNavigation, useScrollNavigation } from "@/hooks/use-keyboard-navigation";
 
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Mail } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 import { Particles } from "@/components/magicui/particles";
 

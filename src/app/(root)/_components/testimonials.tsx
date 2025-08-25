@@ -16,7 +16,7 @@ const reviews = [
       "Expert CSS to change existng html to Web Mobile design - Refer attach ppt ",
     rating: 5.0,
     dueDate: "Mar 22, 2022 - Apr 5, 2022",
-    body: "Good work, Ahmed is professional, would hire again.",
+    body: "Good work, Parthiv is professional, would hire again.",
   },
   {
     jobTitle:

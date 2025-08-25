@@ -1,4 +1,3 @@
-import { allBlogs } from "content-collections";
 import type { MetadataRoute } from "next";
 import { headers } from "next/headers";
 
@@ -11,10 +10,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {
       url: "projects",
     },
-
-    {
-      url: "blog",
-    },
   ];
   return [
     {
@@ -24,11 +19,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...allPages.map((page) => ({
       url: `${protocol}://${domain}/${page.url}`,
       lastModified: new Date(),
-    })),
-
-    ...allBlogs.map((blog) => ({
-      url: `${protocol}://${domain}/blog/${blog.slug}`,
-      lastModified: blog.publishedOn,
     })),
   ];
 }

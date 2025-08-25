@@ -1,9 +1,9 @@
 
-# Elhussary | Personal Portfolio Website & Blog
+# Parthiv Pradeep | Personal Portfolio Website & Blog
 
-🚀 **[Visit the Site](https://elhussary.vercel.app/)**  
+🚀 **[Visit the Site](https://www.parthivpradeep.me/)**  
 
-Elhussary is a personal portfolio website showcasing projects, a blog, and other technical content. Built with **Next.js** and **Tailwind CSS**, it delivers a fast and responsive experience.
+Parthiv's personal portfolio website showcasing projects, a blog, and other technical content. Built with **Next.js** and **Tailwind CSS**, it delivers a fast and responsive experience.
 
 ---
 
@@ -23,7 +23,7 @@ Elhussary is a personal portfolio website showcasing projects, a blog, and other
 ## 🔧 **Setup & Installation**
 1. **Clone the Repository**  
    ```sh
-   git clone https://github.com/elhussary/portfolio.git
+   git clone https://github.com/parthiv-pradeep/portfolio.git
    cd portfolio
    ```
 2. **Install Dependencies**  
@@ -40,10 +40,10 @@ Elhussary is a personal portfolio website showcasing projects, a blog, and other
 ---
 
 ### 🔗 **Connect with Me**
-- Website: [elhussary.vercel.app](https://elhussary.vercel.app/)  
-- Twitter: [@elhussaryy](https://X.com/elhussaryy)  
-- LinkedIn: [Ahmed Wael](https://www.linkedin.com/in/elhussary2003)  
+- Website: [parthivpradeep.me](https://www.parthivpradeep.me/)  
+- Instagram: [@paaarthiiv](https://www.instagram.com/paaarthiiv)  
+- LinkedIn: [Parthiv Pradeep](https://www.linkedin.com/in/parthiv-pradeep)  
 
 ---
 
-**Made with ❤️ by Elhussary**  
+**Made with ❤️ by Parthiv Pradeep**  

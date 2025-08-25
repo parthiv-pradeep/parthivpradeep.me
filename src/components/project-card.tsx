@@ -8,63 +8,72 @@ import { Button } from "@/components/ui/button";
 
 const Projects = [
   {
-    title: "StoreIt",
+    title: "Medieval Life",
     description:
-      "A storage management and file sharing platform that lets users effortlessly upload, organize, and share files.",
-    short:
-      "https://cdn.jsdelivr.net/gh/elhussary/project-showcases/storeit.mp4",
+      "A comprehensive e-commerce platform for Medieval Life, featuring an intuitive shopping experience with advanced product management and seamless payment integration.",
+    short: "/projects/medivallife.mp4",
     features: [
-      "User Authentication with Appwrite",
-      "Effortlessly upload a variety of file types, including documents, images, videos, and audio,",
-      "Users can easily share their uploaded files with others,",
-      "Gain insights at a glance with a dynamic dashboard that showcases total and consumed storage",
+      "Advanced product categorization and filtering",
+      "Secure payment gateway integration",
+      "Real-time inventory management",
+      "User-friendly admin dashboard",
+      "Responsive mobile-first design"
     ],
     technologies: [
       "Next.js",
       "Tailwind CSS",
-      "Appwrite",
-      "Clerk Auth",
-      "Lemon Squeezy",
+      "Node.js",
+      "PostgreSQL",
+      "Stripe"
     ],
-
-    link: "https://store-it-roan.vercel.app/",
-    sourceCode: "https://github.com/elhussary/store-it",
+    link: "https://medievallife.ae",
+    sourceCode: "https://github.com/parthiv-pradeep/medieval-life",
   },
 
   {
-    title: "Code Craft",
-    description: "Online IDE with multi-language support (10 languages)",
-    short:
-      "https://cdn.jsdelivr.net/gh/elhussary/project-showcases/codecraft.mp4",
+    title: "Nirantr",
+    description:
+      "A dynamic web platform for Nirantr, showcasing their services and facilitating seamless client engagement through an interactive interface.",
+    short: "/projects/nirantr.mp4",
     features: [
-      "Smart output handling with Success & Error states",
-      "Flexible pricing with Free & Pro plans",
-      "Customizable experience with 5 VSCode themes",
-      "Community-driven code sharing system",
-      "Personal profile with execution history tracking",
+      "Interactive service showcase",
+      "Contact form integration",
+      "Portfolio gallery",
+      "Blog section with CMS",
+      "Performance optimized animations"
+    ],
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "MongoDB",
+      "Express"
+    ],
+    link: "https://nirantr.com",
+    sourceCode: "https://github.com/parthiv-pradeep/nirantr",
+  },
+
+  {
+    title: "Future Talk Edu",
+    description:
+      "An educational platform for Future Talk Edu, providing comprehensive course management and student engagement features.",
+    short: "/projects/futuretalkedu.mp4",
+    features: [
+      "Course management system",
+      "Student progress tracking",
+      "Interactive learning modules",
+      "Live session integration",
+      "Automated assessment system"
     ],
     technologies: [
       "Next.js",
       "Tailwind CSS",
-      "Convex",
-      "Clerk Auth",
-      "Lemon Squeezy",
+      "TypeScript",
+      "Prisma",
+      "PostgreSQL"
     ],
-
-    link: "https://thecodecraft.vercel.app/",
-    sourceCode: "https://github.com/elhussary/code-craft",
-  },
-
-  {
-    title: "NFTHUB",
-    description:
-      "A Figma-designed landing page converted into a responsive web page",
-    short: "https://cdn.jsdelivr.net/gh/elhussary/project-showcases/nfthub.mp4",
-    features: ["Responsive", "Animate on scroll"],
-    technologies: ["HTML", "CSS", "JavaScript", "AOS library"],
-
-    link: "https://nft-hub-ivory.vercel.app/",
-    sourceCode: "https://github.com/elhussary/nft-hub",
+    link: "https://futuretalkedu.in",
+    sourceCode: "https://github.com/parthiv-pradeep/future-talk-edu",
   },
 ];
 

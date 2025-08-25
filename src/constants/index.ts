@@ -11,10 +11,6 @@ export const navbarLinks = [
     name: "Testimonials",
     url: "/#testimonials",
   },
-  {
-    name: "Blog",
-    url: "/blog",
-  },
 ];
 
 export const Categories = [

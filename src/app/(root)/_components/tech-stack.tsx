@@ -29,13 +29,13 @@ const backEndTech = [
 // Front-End Tech
 const frontEndTech = [
   { name: "HTML", slug: "html5" },
-  { name: "CSS", slug: "css3" },
+  { name: "CSS", slug: "css" },
   { name: "JavaScript", slug: "javascript" },
   { name: "TypeScript", slug: "typescript" },
   { name: "React", slug: "react" },
-  { name: "NextJS", slug: "nextdotjs" },
+  { name: "shadcn/ui", slug: "shadcnui" },
+  { name: "Next.js", slug: "nextdotjs" },
   { name: "Tailwind CSS", slug: "tailwindcss" },
-  { name: "Bootstrap", slug: "bootstrap" },
 ];
 
 // Dev Tools
@@ -67,14 +67,22 @@ const devTools = [
   { name: "Lemon Squeezy", slug: "lemonsqueezy" },
 ];
 
+const getIconUrl = (tech: { name: string; slug: string }) => {
+  // Custom handling for shadcn/ui
+  if (tech.slug === "shadcnui") {
+    return "/icons/shadcn.svg";
+  }
+  return `https://cdn.simpleicons.org/${tech.slug}`;
+};
+
 const frontEndIcons = frontEndTech.map((tech) => ({
   ...tech,
-  icon: `https://cdn.simpleicons.org/${tech.slug}`,
+  icon: getIconUrl(tech),
 }));
 
 const devToolsIcons = devTools.map((tech) => ({
   ...tech,
-  icon: `https://cdn.simpleicons.org/${tech.slug}`,
+  icon: getIconUrl(tech),
 }));
 
 const StackList: React.FC<TechStackProps> = ({ items }) => (

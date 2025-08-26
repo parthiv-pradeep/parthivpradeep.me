@@ -5,37 +5,34 @@ import Image from "next/image";
 
 const reviews = [
   {
-    jobTitle:
-      "HTML developer to create HTML pages from Existing UI and Design kit",
+    jobTitle: "HTML developer to create HTML pages from Existing UI and Design kit",
     rating: 5.0,
-    dueDate: "Apr 2, 2022 - Apr 15, 2022",
-    body: "Very Good completed task on time.",
+    dueDate: "Jul 10, 2025 - Jul 22, 2025",
+    body: "Parthiv was a pleasure to work with. He delivered pixel-perfect HTML pages ahead of schedule and communicated clearly throughout the project. Highly recommended for any front-end work!",
   },
   {
-    jobTitle:
-      "Expert CSS to change existng html to Web Mobile design - Refer attach ppt ",
+    jobTitle: "Expert CSS to change existing HTML to Web Mobile design - Refer attach ppt",
     rating: 5.0,
-    dueDate: "Mar 22, 2022 - Apr 5, 2022",
-    body: "Good work, Parthiv is professional, would hire again.",
+    dueDate: "Jun 15, 2025 - Jun 28, 2025",
+    body: "Parthiv transformed our desktop site into a beautiful, responsive mobile experience. He was proactive with suggestions and always quick to respond. Will definitely hire again!",
   },
   {
-    jobTitle:
-      "HTML developer to create HTML pages from Existing UI and Design kit ",
+    jobTitle: "HTML developer to create HTML pages from Existing UI and Design kit",
     rating: 5.0,
-    dueDate: "Mar 22, 2022 - Mar 29, 2022",
-    body: "Very good soul. Completed my job before time. Excellent work and very prompt. I really recommend him for front end jobs. Will take him for next project as well.",
+    dueDate: "Aug 1, 2025 - Aug 8, 2025",
+    body: "Outstanding work! Parthiv completed the job before the deadline and exceeded our expectations. His attention to detail and professionalism stood out. Looking forward to future projects together.",
   },
   {
-    jobTitle: "Fix problem in TailwindCSS layout ",
+    jobTitle: "Fix problem in TailwindCSS layout",
     rating: 5.0,
-    dueDate: "Mar 17, 2022 - Mar 21, 2022",
-    body: "Did a great job. Delivered quality results fast.",
+    dueDate: "Jul 1, 2025 - Jul 3, 2025",
+    body: "Parthiv quickly identified and fixed a tricky layout bug in our TailwindCSS project. The solution was clean and well-documented. Great experience!",
   },
   {
     jobTitle: "Clone web component in TailwindCSS",
     rating: 5.0,
-    dueDate: "Mar 12, 2022 - Mar 14, 2022",
-    body: "",
+    dueDate: "Jun 25, 2025 - Jun 27, 2025",
+    body: "Impressive speed and accuracy. Parthiv cloned a complex web component flawlessly and provided helpful notes for our team. Will work with him again!",
   },
 ];
 

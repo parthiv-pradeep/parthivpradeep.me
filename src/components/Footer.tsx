@@ -11,11 +11,23 @@ const Footer = () => {
   return (
     <footer className="border-t">
       <div className="container flex flex-col justify-between gap-2 sm:flex-row py-3.5 w-full shrink-0 items-center px-4 md:px-6">
-        <Link href="http://wa.me/+918078192618" target="_blank">
-          <InteractiveHoverButton className="text-sm">
-            Contact on WhatsApp
-          </InteractiveHoverButton>
-        </Link>
+        <div className="flex gap-2">
+          <Link href="http://wa.me/+918078192618" target="_blank">
+            <InteractiveHoverButton className="text-sm">
+              Contact on WhatsApp
+            </InteractiveHoverButton>
+          </Link>
+          <a
+            href="/Parthiv_Pradeep.pdf"
+            download
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <InteractiveHoverButton className="text-sm">
+              Download CV
+            </InteractiveHoverButton>
+          </a>
+        </div>
 
         <nav className="sm:ml-auto flex gap-4">
           <Link

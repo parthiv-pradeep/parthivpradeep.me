@@ -147,7 +147,6 @@ const features = [
     description:
       "developing professional responsive websites, Landing pages, and web applications.",
     href: "#",
-    cta: "Learn more",
     className: "col-span-3 lg:col-span-1",
     background: (
       <AnimatedListDemo className="absolute right-2 top-4 h-[300px] w-full scale-75 border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-90" />
@@ -159,7 +158,6 @@ const features = [
     description:
       "Converting design files (Figma, XD, Sketch, and PSD) into pixel-perfect.",
     href: "#",
-    cta: "Learn more",
     className: "col-span-3 lg:col-span-1",
     background: (
       <AnimatedBeamMultipleOutputDemo className="absolute right-2 top-4 h-[300px] border-none transition-all duration-300 ease-out [mask-image:linear-gradient(to_top,transparent_10%,#000_100%)] group-hover:scale-105" />
@@ -171,7 +169,6 @@ const features = [
     description:
       "Writing maintainable, efficient, and scalable code following best practices.",
     href: "#",
-    cta: "Learn more",
     className: "col-span-3 lg:col-span-1",
     background: (
       <Marquee

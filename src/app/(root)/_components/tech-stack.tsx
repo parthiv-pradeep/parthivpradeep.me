@@ -10,21 +10,17 @@ interface TechStackProps {
   items: TechItem[];
 }
 
-/* Back-End
+// Back-End
 const backEndTech = [
   { name: "PHP", slug: "php" },
   { name: "Node.js", slug: "nodedotjs" },
+  { name: "Python", slug: "python" },
   { name: "MySQL", slug: "mysql" },
   { name: "MongoDB", slug: "mongodb" },
-  { name: "C++", slug: "c++" },
-  { name: "Laravel", slug: "laravel" },
   { name: "Express", slug: "express" },
-  { name: "Postgresql", slug: "postgresql" },
-  { name: "GraphQL", slug: "graphql" },
   { name: "Wordpress", slug: "wordpress" },
   { name: "Socket.io", slug: "socketdotio" },
 ];
-*/
 
 // Front-End Tech
 const frontEndTech = [
@@ -58,13 +54,16 @@ const devTools = [
   { name: "Docker", slug: "docker" },
   { name: "Sentry", slug: "sentry" },
 
-  // Databases & ORM
-  { name: "Prisma", slug: "prisma" },
-  { name: "Drizzle ORM", slug: "drizzle" },
+  // // Databases & ORM
+  // { name: "Prisma", slug: "prisma" },
+  // { name: "Drizzle ORM", slug: "drizzle" },
 
-  // Payment Gateways
-  { name: "Stripe", slug: "stripe" },
-  { name: "Lemon Squeezy", slug: "lemonsqueezy" },
+  // // Payment Gateways
+  // { name: "Stripe", slug: "stripe" },
+  // { name: "Lemon Squeezy", slug: "lemonsqueezy" },
+
+  // AI/ML
+  { name: "RAG", slug: "rag" },
 ];
 
 const getIconUrl = (tech: { name: string; slug: string }) => {
@@ -72,10 +71,19 @@ const getIconUrl = (tech: { name: string; slug: string }) => {
   if (tech.slug === "shadcnui") {
     return "/icons/shadcn.svg";
   }
+  // Custom handling for RAG
+  if (tech.slug === "rag") {
+    return "/icons/rag.svg";
+  }
   return `https://cdn.simpleicons.org/${tech.slug}`;
 };
 
 const frontEndIcons = frontEndTech.map((tech) => ({
+  ...tech,
+  icon: getIconUrl(tech),
+}));
+
+const backEndIcons = backEndTech.map((tech) => ({
   ...tech,
   icon: getIconUrl(tech),
 }));
@@ -119,6 +127,7 @@ const TechStack = () => {
   return (
     <div className="relative">
       <StackList items={frontEndIcons} />
+      <StackList items={backEndIcons} />
       <StackList items={devToolsIcons} />
     </div>
   );

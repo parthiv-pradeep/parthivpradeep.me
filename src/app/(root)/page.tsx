@@ -32,8 +32,56 @@ export default function Page() {
     return () => clearTimeout(timer);
   }, [theme]);
 
+  // Structured data for SEO
+  const projectStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Projects",
+    "itemListElement": [
+      {
+        "@type": "CreativeWork",
+        "name": "Medieval Life",
+        "description": "A comprehensive e-commerce platform for Medieval Life, featuring an intuitive shopping experience with advanced product management and seamless payment integration.",
+        "url": "https://medievallife.ae"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Nirantr",
+        "description": "A dynamic web platform for Nirantr, showcasing their services and facilitating seamless client engagement through an interactive interface.",
+        "url": "https://nirantr.com"
+      },
+      {
+        "@type": "CreativeWork",
+        "name": "Future Talk Edu",
+        "description": "An educational platform for Future Talk Edu, providing comprehensive course management and student engagement features."
+      }
+    ]
+  };
+
+  const testimonialStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "itemReviewed": {
+      "@type": "Person",
+      "name": "Parthiv Pradeep"
+    },
+    "reviewBody": "Parthiv was a pleasure to work with. He delivered pixel-perfect HTML pages ahead of schedule and communicated clearly throughout the project. Highly recommended for any front-end work!",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "5",
+      "bestRating": "5"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Client"
+    }
+  };
+
   return (
-    <main>
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(projectStructuredData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(testimonialStructuredData) }} />
+      <main>
       <Particles
         className="absolute inset-0 z-0"
         quantity={150}
@@ -49,6 +97,9 @@ export default function Page() {
             <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
               Full Stack Developer | Freelancer
             </h1>
+            <p className="text-xl font-semibold text-primary">
+              I build website apps and AI solutions that help businesses grow.
+            </p>
             <p className="text-balance text-muted-foreground text-lg">
               Full Stack Developer crafting high-performance, scalable, and
               user-friendly web applications using modern technologies, clean
@@ -166,6 +217,7 @@ export default function Page() {
       </section>
 
 
-    </main>
+      </main>
+    </>
   );
 }

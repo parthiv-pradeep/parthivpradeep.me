@@ -93,6 +93,7 @@ export default function ProjectCard() {
               muted
               playsInline
               className="rounded-3xl"
+              aria-label={project.title + ' project demo video'}
             ></video>
           </section>
 

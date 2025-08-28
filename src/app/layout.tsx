@@ -11,20 +11,22 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Parthiv Pradeep | Portfolio",
+  title: "Parthiv | Web Developer Kerala | AI & Website Solutions",
   description:
-    "Discover Parthiv Pradeep's full-stack developer portfolio featuring innovative projects, modern web technologies, and a passion for clean, user-friendly design. Explore expertise in React, Next.js, Tailwind CSS, and more.",
+    "Parthiv is a web developer in Kerala specializing in website apps and AI solutions. Fast, responsive, SEO-optimized web development for businesses in Kerala and worldwide.",
   keywords: [
+    "Parthiv",
+    "Web Developer Kerala",
+    "AI Solutions Kerala",
+    "Website Developer Kerala",
     "Full-Stack Developer",
-    "Web Developer",
-    "React Developer",
-    "Next.js Portfolio",
-    "JavaScript Developer",
-    "UI/UX Design",
-    "Responsive Web Design",
-    "Tailwind CSS",
-    "Web Development Projects",
+    "Web Apps",
+    "AI Developer",
+    "Freelance Web Developer",
+    "Kerala Web Development",
     "Modern Web Technologies",
+    "SEO Kerala",
+    "Business Websites Kerala"
   ],
   authors: [{ name: "Parthiv Pradeep", url: "https://www.parthivpradeep.me/" }],
   openGraph: {
@@ -60,6 +62,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+      </head>
       <body className={cn("font-sans antialiased relative", inter.className)}>
         <ThemeProvider
           attribute="class"

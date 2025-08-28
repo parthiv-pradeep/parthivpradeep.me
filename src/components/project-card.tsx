@@ -1,10 +1,5 @@
 "use client";
-import Link from "next/link";
-
-import { ExternalLink } from "lucide-react";
-
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 
 const Projects = [
   {

@@ -65,7 +65,7 @@ const ReviewCard = ({
       </div>
 
       <p className="text-sm">&quot;{body}&quot;</p>
-      <Image src="/upwork.png" width={50} height={50} alt="Upwork Company" />
+  {/* Upwork logo removed as requested */}
     </div>
   );
 };

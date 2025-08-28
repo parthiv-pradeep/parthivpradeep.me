@@ -40,7 +40,7 @@ export default function AboutMeSection() {
           About Me
         </h2>
         <p className="text-lg text-muted-foreground font-medium">
-          I’m an <span className="text-primary font-semibold">AI Engineer</span> and <span className="text-primary font-semibold">Full Stack Developer</span> passionate about building intelligent, scalable, and user-focused solutions. With expertise in both AI/ML systems and end-to-end web development, I bridge the gap between advanced technology and real-world applications.
+          I’m an <span className="text-primary font-semibold"></span><span className="text-primary font-semibold">Full Stack Developer</span> passionate about building intelligent, scalable, and user-focused solutions. With expertise in both AI/ML systems and end-to-end web development, I bridge the gap between advanced technology and real-world applications.
         </p>
         <div className="flex flex-wrap gap-4 justify-center md:justify-start mt-4">
           <span className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold">AI/ML Systems</span>

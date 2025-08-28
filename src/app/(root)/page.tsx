@@ -12,6 +12,7 @@ import { ExternalLink } from "lucide-react";
 import { Particles } from "@/components/magicui/particles";
 
 import Services from "./_components/services";
+import AboutMeSection from "./_components/about-me-section";
 import TechStack from "./_components/tech-stack";
 import ProjectCard from "@/components/project-card";
 import Testimonials from "./_components/testimonials";
@@ -175,6 +176,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+
+      {/* About Me Section */}
+      <AboutMeSection />
 
       {/* Services */}
       <section className="container pb-24">
